@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesListTask", "NotesListTask.csproj", "{28CADBF3-B9F3-4A5D-889A-BBDC82441BDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28CADBF3-B9F3-4A5D-889A-BBDC82441BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CADBF3-B9F3-4A5D-889A-BBDC82441BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CADBF3-B9F3-4A5D-889A-BBDC82441BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CADBF3-B9F3-4A5D-889A-BBDC82441BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {363BC8DC-44E1-4365-B961-119FEF39FA1A}
+	EndGlobalSection
+EndGlobal
