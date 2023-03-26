@@ -14,6 +14,8 @@ namespace NotesListTask.Model
         private string _title;
         private string _description;
 
+        public int Id { get; set; }
+
         public string Title
         {
             get 
