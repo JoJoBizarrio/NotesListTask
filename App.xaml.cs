@@ -17,7 +17,6 @@ namespace NotesListTask
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-           // base.OnStartup(e);
             MainWindow mainWindow = new MainWindow();
             mainWindow.DataContext = new ApplicationViewModel();
             mainWindow.Show();
