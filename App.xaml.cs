@@ -5,6 +5,8 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using NotesListTask.View;
+using NotesListTask.ViewModel;
 
 namespace NotesListTask
 {
@@ -13,6 +15,13 @@ namespace NotesListTask
     /// </summary>
     public partial class App : Application
     {
-
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.DataContext = new ApplicationViewModel();
+            mainWindow.Show();
+        }
     }
+
+    
 }
