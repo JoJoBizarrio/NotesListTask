@@ -11,7 +11,6 @@ namespace NotesListTask
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new ApplicationViewModel();
         }
     }
 }
